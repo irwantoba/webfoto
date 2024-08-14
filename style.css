@@ -1,0 +1,15 @@
+BODY{
+    padding: 10px;
+}
+.WRAPPER{
+    display: grid;
+    grid-template-columns: REPEAT(AUTO-FIT, MINMAX(400PX, 1FR));
+    GRID-GAP: 5PX;
+}
+img{  
+    width:100%;
+    border-radius: 20PX;
+}
+.BOX{
+    padding: 10PX;
+}
